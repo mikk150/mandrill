@@ -11,7 +11,7 @@ use ZengineChris\Mandrill\Messages\Message;
 use ZengineChris\Mandrill\Templates\AbstractTemplate;
 
 // create the mail instance
-$Mail = new Mail(new Mandrill('OxNRETiNhEQqhPRYPBNKwA'));
+$Mail = new Mail(new Mandrill('yourMandrillKey'));
 
 $msg = new Message();
 
