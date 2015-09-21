@@ -1,0 +1,23 @@
+{
+    "name": "zenginechris/mandrill",
+    "description": "A Wrapper for the Mandrill API to send Templates with one or many users.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Christian Bartelt",
+            "email": "christian@zengine.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=5.5.0",
+        "mandrill/mandrill": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZengineChris\\Mandrill\\": "src"
+        }
+    }
+}
