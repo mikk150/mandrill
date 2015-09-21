@@ -3,7 +3,7 @@
     "description": "A Wrapper for the Mandrill API to send Templates with one or many users.",
     "type": "library",
     "license": "MIT",
-    "version": "1.0",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Christian Bartelt",
