@@ -9,9 +9,9 @@ abstract class AbstractMessage implements MessageInterface
     protected $attributes = [
         //'html'                      => '<p>Example HTML content</p>',
         //'text'                      => 'Example text content',
-        'subject'                   => 'example subject',
-        'from_email'                => 'message.from_email@example.com',
-        'from_name'                 => 'Example Name',
+        //'subject'                   => 'example subject',
+        //'from_email'                => 'message.from_email@example.com',
+        //'from_name'                 => 'Example Name',
         'to'                        => [],
         //'headers'                   => ['Reply-To' => 'message.reply@example.com'],
         //'important'                 => false,
@@ -30,10 +30,10 @@ abstract class AbstractMessage implements MessageInterface
         'merge'                     => true,
         'merge_language'            => 'handlebars',
         'global_merge_vars'         => [
-            [
-                'name'    => 'merge1',
-                'content' => 'merge1 content',
-            ],
+            // [
+            //     'name'    => 'merge1',
+            //     'content' => 'merge1 content',
+            // ],
         ],
         'merge_vars'                => [ ],
         //'tags'                      => ['password-resets'],
